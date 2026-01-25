@@ -1,0 +1,40 @@
+.accordion-btn {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  font-size: 2rem;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  color: #ffffff;
+}
+.accordion-btn .bx {
+  margin-right: 5px;
+  color: #4b3f35;
+}
+
+.accordion-btn:hover,
+.accordion-btn:focus {
+  background-color: #a67a59;
+  color: #ffffff;
+}
+
+.accordion-btn:hover .bx,
+.accordion-btn:focus .bx {
+  color: #4b3f35;
+}
+
+.accordion-info {
+  display: none;
+  padding: 1rem 2rem;
+}
+.accordion-info-text {
+  margin-left: 2rem;
+  font-size: 1.8rem;
+}
+
+.active {
+  display: block;
+}/*# sourceMappingURL=accordion.css.map */
