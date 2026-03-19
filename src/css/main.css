@@ -331,6 +331,11 @@ body {
     flex-direction: row;
     align-items: flex-start;
   }
+  .footer__link:hover {
+    color: #6e846c;
+    transition: color;
+    transition-duration: 300ms;
+  }
 }
 @media (min-width: 1200px) {
   .mobile {

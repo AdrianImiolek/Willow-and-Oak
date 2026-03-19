@@ -381,10 +381,17 @@ body {
 		}
 	}
 
+	//FOOTER
+
 	.footer {
 		&__items {
 			flex-direction: row;
 			align-items: flex-start;
+		}
+		&__link:hover {
+			color: components.$tertiary-color;
+			transition: color;
+			transition-duration: 300ms;
 		}
 	}
 }
